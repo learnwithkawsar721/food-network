@@ -51,7 +51,6 @@ button{
 .flex{
     display: flex;
     justify-content: space-between;
-    
 }
 .button__style{
     font-size: 20px;
@@ -254,3 +253,17 @@ margin-bottom: 30px;
     text-align: center;
 }
 /*============ Count Area Css End ==================*/
+
+/*============ footer Area Css Start ==================*/
+.footer__area {
+    background-color: #18191F;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer__text{
+    padding: 50px 0 100px 0;
+}
+.footer__text p{
+    color: #ffffff;
+}
+/*============ footer Area Css End ==================*/
