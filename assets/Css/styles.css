@@ -7,6 +7,7 @@
 }
 a{
     text-decoration: none;
+    color: #18191F;
 }
 ul{
     list-style: none;
@@ -45,6 +46,8 @@ h3{
     font-weight: 600;
     color: #ffffff;
     background: linear-gradient(rgb(251, 146, 73), rgb(253, 78, 48));
+    padding: 15px 45px;
+    border-radius: 25px;
 }
 .text__color{
     color: rgb(251, 146, 73);
@@ -54,8 +57,12 @@ h3{
     box-sizing: border-box;
 }
 .container{
-    width: 80%;
+    width: 85%;
     margin: auto;
+    box-sizing: border-box;
+}
+.col__2{
+    width: 50%;
     box-sizing: border-box;
 }
 /*============ Basic Css End ==================*/
@@ -93,3 +100,29 @@ h3{
     color: rgb(251, 146, 73);
 }
 /*============ Header Area Css End ==================*/
+
+/*============ Banner Area Css Start ==================*/
+/* .banner__area  */
+/* .banner__main  */
+.banner__item {
+    padding-top: 50px;
+}
+.banner__text {
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    
+}
+.banner__button{
+    margin-top: 50px;
+} 
+.banner__images{
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner__images img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+/*============ Banner Area Css End ==================*/
