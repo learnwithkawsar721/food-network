@@ -195,9 +195,9 @@ margin-bottom: 30px;
 .product__box{
     box-sizing: border-box;
     margin-left: 10px;
-    -webkit-box-shadow: 0px 6px 15px 1px #000000;
-    box-shadow: 0px 6px 15px 1px #000000;
-    border-radius: 10px;
+    -webkit-box-shadow: 0px 6px 17px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 17px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
     padding: 20px;
     width: 100%;
     background-color: #FFFFFF;
@@ -209,10 +209,10 @@ margin-bottom: 30px;
    box-sizing: border-box;
 }
 .product__img img{
-margin: auto;
-width: 100%;
-border-radius: 10px;
-box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
 
 } 
 .product__textItem{
@@ -221,7 +221,7 @@ box-sizing: border-box;
     transition: 0.4s linear;
 } 
 .product__textItem h3{
-transition: 0.4s linear;
+    transition: 0.4s linear;
 
 }
 .product__box:hover h3
@@ -241,3 +241,16 @@ transition: 0.4s linear;
     transition: 0.4s linear;
 }
 /*============ Product Area Css End ==================*/
+
+/*============ Count Area Css Start ==================*/
+/* .count__area  */
+.count_box {
+    -webkit-box-shadow: 0px 6px 17px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 17px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+     padding: 50px 0;
+}
+.count_text{
+    text-align: center;
+}
+/*============ Count Area Css End ==================*/
