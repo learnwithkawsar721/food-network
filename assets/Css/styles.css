@@ -35,6 +35,11 @@ h3{
     font-weight: 800;
     color: #18191F;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .button__style{
     font-size: 20px;
     font-weight: 600;
@@ -54,3 +59,37 @@ h3{
     box-sizing: border-box;
 }
 /*============ Basic Css End ==================*/
+
+/*============ Header Area Css Start ==================*/
+/* .header__area */
+.header__main{
+    align-items: center;
+    padding: 20px 0;
+}
+.header__logo{
+    font-size: 28px;
+    line-height: 2em;
+    font-weight: 700;
+    color: rgb(251, 146, 73);
+    text-decoration: initial;
+
+}
+/* .nav__list */
+.nav__item{
+    display: inline-flex;
+    margin: 10px 20px;
+}
+.nav__item:hover .nav__link {
+    color: rgb(251, 146, 73);
+}
+.nav__link{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+    text-transform: capitalize;
+    transition: all 0.4s linear;
+}
+.active{
+    color: rgb(251, 146, 73);
+}
+/*============ Header Area Css End ==================*/
