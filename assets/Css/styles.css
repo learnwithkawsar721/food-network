@@ -267,3 +267,20 @@ margin-bottom: 30px;
     color: #ffffff;
 }
 /*============ footer Area Css End ==================*/
+
+/*============ Testimonial Area Css Start ==================*/
+.product__main{
+    margin-top: 50px;
+}
+.testimonial__img{
+    width: 40%;
+    margin: auto;
+}
+.testimonial__img img{
+    border-radius: 50%;
+    
+}
+.testimonial__name{
+    font-size: 20px;
+}
+/*============ Testimonial Area Css End ==================*/
