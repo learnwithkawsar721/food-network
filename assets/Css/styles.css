@@ -88,6 +88,7 @@ button{
 .header__area{
     margin-top: 0;
     margin-bottom: 0;
+   /* position: f; */
 }
 .header__main{
     align-items: center;
