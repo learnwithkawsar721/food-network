@@ -284,3 +284,12 @@ margin-bottom: 30px;
     font-size: 20px;
 }
 /*============ Testimonial Area Css End ==================*/
+
+/*============ Partnership Area Css Start ==================*/
+.partnership__img img{
+    width: 16%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+/*============ Partnership Area Css End ==================*/
