@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+p{
+    font-size: 18px;
+    line-height: 2em;
+    color: #18191F;
+    font-weight: 400;
+}
+h1{
+    font-size: 60px;
+    line-height: 2em;
+    font-weight: 700;
+    color: #575757;
+}
+h2{
+    font-size: 40px;
+    line-height: 2em;
+    font-weight: 700;
+    color: #707070;
+}
+h3{
+    font-size: 28px;
+    line-height: 2em;
+    font-weight: 800;
+    color: #18191F;
+}
+.button__style{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(rgb(251, 146, 73), rgb(253, 78, 48));
+}
+.text__color{
+    color: rgb(251, 146, 73);
+}
+.full{
+    width: 100%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+/*============ Basic Css End ==================*/
